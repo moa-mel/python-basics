@@ -88,7 +88,6 @@ print('In every programming language it starts with \"Hello, World!\"')
 
 ## String Methods
 # capitalize(): Converts the first character the string to Capital Letter
-
 challenge = 'thirty days of python'
 print(challenge.capitalize()) # 'Thirty days of python'
 
