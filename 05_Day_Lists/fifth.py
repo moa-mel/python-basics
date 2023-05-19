@@ -46,3 +46,41 @@ orange_and_mango = fruits[1:3]
 print(orange_and_mango)
 orange_mango_lemon = fruits[-3:]
 print(orange_mango_lemon)
+
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits[0] = 'Avocado'
+print(fruits)
+fruits[1] = 'apple'
+print(fruits)
+last_index = len(fruits) -1 
+fruits[last_index] = 'lime'
+print(fruits)
+
+fruits = ['banana', 'orange', 'mango', 'lemon']
+does_exist = 'banana' in fruits
+print(does_exist)
+does_exist = 'lime' in fruits
+print(does_exist)
+
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits.insert(2, 'apple')
+print(fruits)
+fruits.insert(3, 'lime')
+print(fruits)
+
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits.remove('banana')
+fruits.remove('lemon')
+print(fruits)
+
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits.pop()
+print(fruits)
+
+fruits = ['banana', 'orange', 'mango', 'lemon']
+del fruits[0]
+print(fruits)
+#clear
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits.clear()
+print(fruits)
